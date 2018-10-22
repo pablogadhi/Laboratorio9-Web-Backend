@@ -11,4 +11,4 @@ class GossipSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = models.Gossip
-        fields = ('id', 'title', 'description', 'date')
+        fields = ('id', 'title', 'date')
